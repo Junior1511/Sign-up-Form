@@ -11,8 +11,8 @@
 }
 
 .image {
-    height: 100vh;
-    width: auto;
+    height: auto;
+    width: 36%;
     position: absolute;
 }
 
@@ -36,9 +36,9 @@
 }
 
 .odin {
-    position: relative;
+    position: absolute;
     font-size: 50px;
-    left: 40px;
+    left: 240px;
 }
 
 .author{
@@ -49,3 +49,5 @@
     left: 170px;
     font-size: 13px;
 }
+
+/* RIGHT SIDE */

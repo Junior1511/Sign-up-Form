@@ -4,11 +4,47 @@
     border: 0;
 }
 
-#image {
-    width: 37vw;
-    height: auto;
+/* LEFT SIDE */
+
+.image-container {
+    position: relative;
 }
 
-body{
-    background-color: forestgreen;
+.image {
+    height: auto;
+    width: 37%;
+    position: absolute;
+}
+
+.logo-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: absolute;
+    width: 37%;
+    opacity: .3;
+    height: 120px;
+    color: white;
+    top: 150px;
+}
+
+.logo {
+    position: absolute;
+    height: 100px;
+    left: 150px;
+}
+
+.odin {
+    position: relative;
+    font-size: 50px;
+    left: 30px;
+}
+
+.author{
+    position: absolute;
+    font-weight: bolder;
+    color: black;
+    top: 780px;
+    left: 150px
 }

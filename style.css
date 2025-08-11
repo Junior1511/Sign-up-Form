@@ -11,8 +11,8 @@
 }
 
 .image {
-    height: auto;
-    width: 37%;
+    height: 100vh;
+    width: auto;
     position: absolute;
 }
 
@@ -22,7 +22,7 @@
     align-items: center;
     background-color: black;
     position: absolute;
-    width: 37%;
+    width: 36%;
     opacity: .4;
     height: 120px;
     color: white;
@@ -38,13 +38,14 @@
 .odin {
     position: relative;
     font-size: 50px;
-    left: 30px;
+    left: 40px;
 }
 
 .author{
     position: absolute;
     font-weight: bolder;
     color: black;
-    top: 780px;
-    left: 150px
+    top: 765px;
+    left: 170px;
+    font-size: 13px;
 }

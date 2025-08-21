@@ -11,9 +11,10 @@
 }
 
 .image {
-    height: auto;
+    height: 100vh;
     width: 36%;
     position: absolute;
+    z-index: -1;
 }
 
 .logo-body {
@@ -51,3 +52,23 @@
 }
 
 /* RIGHT SIDE */
+
+.right-background {
+    position: relative;
+    left: 36%;
+    background-color: #5e9b8a;
+    width: 64%;
+    height: 100vh;
+}
+
+.paragraph {
+    margin-left: -80px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 65px;
+}
+
+.form {
+    background-color: white;
+    padding-left: 50px;
+}

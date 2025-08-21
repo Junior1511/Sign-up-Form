@@ -46,10 +46,10 @@
 .author{
     position: absolute;
     font-weight: bolder;
-    color: black;
+    color: white;
     top: 760px;
-    left: 170px;
-    font-size: 13px;
+    left: 10px;
+    font-size: 15px;
 }
 
 /* RIGHT SIDE */

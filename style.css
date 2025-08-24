@@ -82,6 +82,7 @@
 .label-input{
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 input {
@@ -96,4 +97,11 @@ h2{
 
 label{
     font-size: 15px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
 }

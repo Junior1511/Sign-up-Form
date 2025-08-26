@@ -54,19 +54,22 @@
 
                     <div class="label-input">
                         <label for="password">Password </label>
-                        <input type="password" name="password" id="password">
+                        <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required type="password" name="password" id="password">
                     </div>
 
                     <div class="label-input">
                         <label for="cpassword">Confirm Password</label>
-                        <input type="password" name="cpassword" id="cpassword">
+                        <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required type="password" name="cpassword" id="cpassword">
                     </div>
                 </fieldset>
 
             </form>
         </div>
         <button id="create-acc" form="my-form" type="submit">Create Account</button>
-        <p>Already have an account?</p><button id="log-in">Log in</button>
+        <div class="last-one">
+            <p>Already have an account?</p>
+            <button id="log-in">Log in</button>
+        </div>
     </div>
 </body>
 </html>
